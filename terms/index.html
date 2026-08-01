@@ -1,12 +1,12 @@
 ﻿<!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Conditions d'utilisation — Vice Games</title>
+    <title>Terms of Service — Vice Games</title>
     <meta
       name="description"
-      content="Conditions d'utilisation du bot Discord Vice Games."
+      content="Terms of Service for the Vice Games Discord bot."
     />
     <link rel="canonical" href="https://legal.shvkt.xyz/terms/" />
     <link rel="icon" href="../assets/logo.png" type="image/png" />
@@ -15,7 +15,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="stylesheet" href="../styles.css" />
   </head>
-  <body>
+  <body data-page="terms">
     <div class="bg" aria-hidden="true"></div>
     <div class="shell">
       <header class="site-header">
@@ -23,124 +23,242 @@
           <img class="brand-mark" src="../assets/logo.png" width="34" height="34" alt="" />
           Vice Games
         </a>
-        <nav>
-          <a href="./" aria-current="page">Conditions d'utilisation</a>
-          <a href="../privacy/">Confidentialité</a>
-        </nav>
+        <div class="header-actions">
+          <nav>
+            <a href="./" aria-current="page" data-i18n="nav.terms">Terms of Service</a>
+            <a href="../privacy/" data-i18n="nav.privacy">Privacy Policy</a>
+          </nav>
+          <div class="lang-switch" role="group" aria-label="Language">
+            <button type="button" data-set-lang="en" aria-pressed="true">EN</button>
+            <button type="button" data-set-lang="fr" aria-pressed="false">FR</button>
+          </div>
+        </div>
       </header>
 
       <main class="doc">
         <article class="doc-card">
-          <h1>Conditions d'utilisation</h1>
-          <p class="meta">Dernière mise à jour&nbsp;: 1 août 2026 · Service&nbsp;: bot Discord «&nbsp;Vice Games&nbsp;»</p>
+          <div data-lang="en">
+            <h1>Terms of Service</h1>
+            <p class="meta">Last updated: August 1, 2026 · Service: Discord bot “Vice Games”</p>
 
-          <h2>1. Objet</h2>
-          <p>
-            Les présentes Conditions d'utilisation («&nbsp;Conditions&nbsp;») régissent
-            l'accès et l'utilisation du bot Discord Vice Games (le «&nbsp;Bot&nbsp;»),
-            opéré par l'équipe Vice Games («&nbsp;nous&nbsp;», «&nbsp;notre&nbsp;»).
-            En invitant ou en utilisant le Bot sur un serveur Discord, vous
-            acceptez ces Conditions.
-          </p>
+            <h2>1. Purpose</h2>
+            <p>
+              These Terms of Service (“Terms”) govern access to and use of the Vice Games
+              Discord bot (the “Bot”), operated by the Vice Games team (“we”, “our”).
+              By inviting or using the Bot on a Discord server, you agree to these Terms.
+            </p>
 
-          <h2>2. Description du service</h2>
-          <p>
-            Vice Games est un bot Discord qui agrège et diffuse des informations
-            sur des jeux gratuits, promotions et offres temporaires provenant de
-            boutiques tierces (Steam, Epic Games Store, GOG, et autres sources
-            publiques). Le Bot peut envoyer des alertes dans les salons configurés
-            par les administrateurs de serveur.
-          </p>
+            <h2>2. Service description</h2>
+            <p>
+              Vice Games is a Discord bot that aggregates and shares information about free
+              games, promotions, and limited-time offers from third-party stores (Steam,
+              Epic Games Store, GOG, and other public sources). The Bot may send alerts to
+              channels configured by server administrators.
+            </p>
 
-          <h2>3. Éligibilité</h2>
-          <p>
-            Vous devez avoir l'âge minimum requis pour utiliser Discord dans votre
-            pays, et disposer des permissions nécessaires pour ajouter le Bot ou
-            configurer ses fonctionnalités sur un serveur.
-          </p>
+            <h2>3. Eligibility</h2>
+            <p>
+              You must meet Discord’s minimum age requirement in your country and have the
+              permissions needed to add the Bot or configure its features on a server.
+            </p>
 
-          <h2>4. Comptes et serveurs Discord</h2>
-          <p>
-            L'utilisation du Bot reste soumise aux
-            <a href="https://discord.com/terms" rel="noopener noreferrer" target="_blank"
-              >Conditions d'utilisation de Discord</a
-            >
-            et aux
-            <a href="https://discord.com/guidelines" rel="noopener noreferrer" target="_blank"
-              >Règles de la communauté Discord</a
-            >. Nous ne sommes pas affiliés à Discord Inc.
-          </p>
+            <h2>4. Discord accounts and servers</h2>
+            <p>
+              Use of the Bot remains subject to the
+              <a href="https://discord.com/terms" rel="noopener noreferrer" target="_blank"
+                >Discord Terms of Service</a
+              >
+              and the
+              <a href="https://discord.com/guidelines" rel="noopener noreferrer" target="_blank"
+                >Discord Community Guidelines</a
+              >. We are not affiliated with Discord Inc.
+            </p>
 
-          <h2>5. Utilisation acceptable</h2>
-          <p>Vous vous engagez à ne pas&nbsp;:</p>
-          <ul>
-            <li>abuser, surcharger ou tenter de contourner le Bot ou son infrastructure&nbsp;;</li>
-            <li>utiliser le Bot pour harceler, spammer ou diffuser du contenu illégal&nbsp;;</li>
-            <li>revendre l'accès au Bot ou le présenter comme un service officiel d'une boutique de jeux&nbsp;;</li>
-            <li>extraire massivement les données fournies par le Bot au-delà d'un usage normal.</li>
-          </ul>
+            <h2>5. Acceptable use</h2>
+            <p>You agree not to:</p>
+            <ul>
+              <li>abuse, overload, or attempt to circumvent the Bot or its infrastructure;</li>
+              <li>use the Bot to harass, spam, or distribute illegal content;</li>
+              <li>
+                resell access to the Bot or present it as an official service of a game store;
+              </li>
+              <li>mass-extract data provided by the Bot beyond normal use.</li>
+            </ul>
 
-          <h2>6. Contenu et exactitude</h2>
-          <p>
-            Les offres affichées proviennent de sources tierces. Les prix, dates
-            de fin, disponibilités et conditions peuvent changer sans préavis. Nous
-            ne garantissons pas l'exhaustivité ni l'exactitude des informations, ni
-            la disponibilité continue d'une offre. Vérifiez toujours sur la
-            boutique concernée avant d'acheter ou de réclamer un jeu.
-          </p>
+            <h2>6. Content and accuracy</h2>
+            <p>
+              Offers shown come from third-party sources. Prices, end dates, availability, and
+              conditions may change without notice. We do not guarantee completeness or accuracy
+              of the information, nor the ongoing availability of any offer. Always verify on the
+              relevant store before purchasing or claiming a game.
+            </p>
 
-          <h2>7. Propriété intellectuelle</h2>
-          <p>
-            Le nom «&nbsp;Vice Games&nbsp;», le Bot, son code et ses éléments
-            graphiques associés restent notre propriété ou celle de leurs
-            ayants droit. Les marques, logos et titres de jeux cités appartiennent
-            à leurs propriétaires respectifs.
-          </p>
+            <h2>7. Intellectual property</h2>
+            <p>
+              The name “Vice Games”, the Bot, its code, and associated graphics remain our
+              property or that of their respective rights holders. Cited brands, logos, and game
+              titles belong to their respective owners.
+            </p>
 
-          <h2>8. Disponibilité et modifications</h2>
-          <p>
-            Nous pouvons modifier, suspendre ou interrompre tout ou partie du
-            service à tout moment, y compris pour maintenance, mises à jour ou
-            raisons légales. Les présentes Conditions peuvent être mises à jour&nbsp;;
-            la date en tête de page fait foi.
-          </p>
+            <h2>8. Availability and changes</h2>
+            <p>
+              We may modify, suspend, or discontinue all or part of the service at any time,
+              including for maintenance, updates, or legal reasons. These Terms may be updated;
+              the date at the top of this page controls.
+            </p>
 
-          <h2>9. Limitation de responsabilité</h2>
-          <p>
-            Dans les limites autorisées par la loi, Vice Games et ses opérateurs
-            ne sauraient être responsables des dommages indirects, pertes de
-            données, pertes financières ou litiges résultant de l'utilisation du
-            Bot, d'une offre inexacte, d'une interruption de service, ou d'actions
-            de plateformes tierces (Discord, Steam, Epic, etc.).
-          </p>
+            <h2>9. Limitation of liability</h2>
+            <p>
+              To the fullest extent permitted by law, Vice Games and its operators shall not be
+              liable for indirect damages, data loss, financial loss, or disputes arising from use
+              of the Bot, an inaccurate offer, a service interruption, or actions of third-party
+              platforms (Discord, Steam, Epic, etc.).
+            </p>
 
-          <h2>10. Résiliation</h2>
-          <p>
-            Vous pouvez cesser d'utiliser le Bot à tout moment en le retirant de
-            vos serveurs. Nous pouvons restreindre ou révoquer l'accès en cas de
-            non-respect des présentes Conditions ou d'abus.
-          </p>
+            <h2>10. Termination</h2>
+            <p>
+              You may stop using the Bot at any time by removing it from your servers. We may
+              restrict or revoke access if these Terms are violated or in case of abuse.
+            </p>
 
-          <h2>11. Droit applicable</h2>
-          <p>
-            Sous réserve des dispositions impératives applicables, ces Conditions
-            sont interprétées selon le droit français. Tout litige sera soumis aux
-            tribunaux compétents du ressort du siège de l'opérateur, sauf règle
-            contraire d'ordre public.
-          </p>
+            <h2>11. Governing law</h2>
+            <p>
+              Subject to mandatory applicable rules, these Terms are interpreted under French law.
+              Any dispute shall be submitted to the competent courts of the operator’s seat,
+              unless a mandatory rule provides otherwise.
+            </p>
 
-          <h2>12. Contact</h2>
-          <p>
-            Pour toute question relative à ces Conditions&nbsp;:
-            <a href="mailto:yenediscord@gmail.com">yenediscord@gmail.com</a>
-            — ou via le serveur de support Vice Games sur Discord.
-          </p>
+            <h2>12. Contact</h2>
+            <p>
+              For questions about these Terms:
+              <a href="mailto:yenediscord@gmail.com">yenediscord@gmail.com</a>
+              — or via the Vice Games support server on Discord.
+            </p>
+          </div>
+
+          <div data-lang="fr" hidden>
+            <h1>Conditions d'utilisation</h1>
+            <p class="meta">
+              Dernière mise à jour&nbsp;: 1 août 2026 · Service&nbsp;: bot Discord
+              «&nbsp;Vice Games&nbsp;»
+            </p>
+
+            <h2>1. Objet</h2>
+            <p>
+              Les présentes Conditions d'utilisation («&nbsp;Conditions&nbsp;») régissent
+              l'accès et l'utilisation du bot Discord Vice Games (le «&nbsp;Bot&nbsp;»),
+              opéré par l'équipe Vice Games («&nbsp;nous&nbsp;», «&nbsp;notre&nbsp;»).
+              En invitant ou en utilisant le Bot sur un serveur Discord, vous
+              acceptez ces Conditions.
+            </p>
+
+            <h2>2. Description du service</h2>
+            <p>
+              Vice Games est un bot Discord qui agrège et diffuse des informations
+              sur des jeux gratuits, promotions et offres temporaires provenant de
+              boutiques tierces (Steam, Epic Games Store, GOG, et autres sources
+              publiques). Le Bot peut envoyer des alertes dans les salons configurés
+              par les administrateurs de serveur.
+            </p>
+
+            <h2>3. Éligibilité</h2>
+            <p>
+              Vous devez avoir l'âge minimum requis pour utiliser Discord dans votre
+              pays, et disposer des permissions nécessaires pour ajouter le Bot ou
+              configurer ses fonctionnalités sur un serveur.
+            </p>
+
+            <h2>4. Comptes et serveurs Discord</h2>
+            <p>
+              L'utilisation du Bot reste soumise aux
+              <a href="https://discord.com/terms" rel="noopener noreferrer" target="_blank"
+                >Conditions d'utilisation de Discord</a
+              >
+              et aux
+              <a href="https://discord.com/guidelines" rel="noopener noreferrer" target="_blank"
+                >Règles de la communauté Discord</a
+              >. Nous ne sommes pas affiliés à Discord Inc.
+            </p>
+
+            <h2>5. Utilisation acceptable</h2>
+            <p>Vous vous engagez à ne pas&nbsp;:</p>
+            <ul>
+              <li>abuser, surcharger ou tenter de contourner le Bot ou son infrastructure&nbsp;;</li>
+              <li>utiliser le Bot pour harceler, spammer ou diffuser du contenu illégal&nbsp;;</li>
+              <li>
+                revendre l'accès au Bot ou le présenter comme un service officiel d'une boutique
+                de jeux&nbsp;;
+              </li>
+              <li>extraire massivement les données fournies par le Bot au-delà d'un usage normal.</li>
+            </ul>
+
+            <h2>6. Contenu et exactitude</h2>
+            <p>
+              Les offres affichées proviennent de sources tierces. Les prix, dates
+              de fin, disponibilités et conditions peuvent changer sans préavis. Nous
+              ne garantissons pas l'exhaustivité ni l'exactitude des informations, ni
+              la disponibilité continue d'une offre. Vérifiez toujours sur la
+              boutique concernée avant d'acheter ou de réclamer un jeu.
+            </p>
+
+            <h2>7. Propriété intellectuelle</h2>
+            <p>
+              Le nom «&nbsp;Vice Games&nbsp;», le Bot, son code et ses éléments
+              graphiques associés restent notre propriété ou celle de leurs
+              ayants droit. Les marques, logos et titres de jeux cités appartiennent
+              à leurs propriétaires respectifs.
+            </p>
+
+            <h2>8. Disponibilité et modifications</h2>
+            <p>
+              Nous pouvons modifier, suspendre ou interrompre tout ou partie du
+              service à tout moment, y compris pour maintenance, mises à jour ou
+              raisons légales. Les présentes Conditions peuvent être mises à jour&nbsp;;
+              la date en tête de page fait foi.
+            </p>
+
+            <h2>9. Limitation de responsabilité</h2>
+            <p>
+              Dans les limites autorisées par la loi, Vice Games et ses opérateurs
+              ne sauraient être responsables des dommages indirects, pertes de
+              données, pertes financières ou litiges résultant de l'utilisation du
+              Bot, d'une offre inexacte, d'une interruption de service, ou d'actions
+              de plateformes tierces (Discord, Steam, Epic, etc.).
+            </p>
+
+            <h2>10. Résiliation</h2>
+            <p>
+              Vous pouvez cesser d'utiliser le Bot à tout moment en le retirant de
+              vos serveurs. Nous pouvons restreindre ou révoquer l'accès en cas de
+              non-respect des présentes Conditions ou d'abus.
+            </p>
+
+            <h2>11. Droit applicable</h2>
+            <p>
+              Sous réserve des dispositions impératives applicables, ces Conditions
+              sont interprétées selon le droit français. Tout litige sera soumis aux
+              tribunaux compétents du ressort du siège de l'opérateur, sauf règle
+              contraire d'ordre public.
+            </p>
+
+            <h2>12. Contact</h2>
+            <p>
+              Pour toute question relative à ces Conditions&nbsp;:
+              <a href="mailto:yenediscord@gmail.com">yenediscord@gmail.com</a>
+              — ou via le serveur de support Vice Games sur Discord.
+            </p>
+          </div>
         </article>
       </main>
 
       <footer class="site-footer">
-        <p><a href="../">Accueil</a> · <a href="../privacy/">Confidentialité</a></p>
+        <p>
+          <a href="../" data-i18n="footer.home">Home</a>
+          ·
+          <a href="../privacy/" data-i18n="footer.privacy">Privacy Policy</a>
+        </p>
       </footer>
     </div>
+    <script src="../lang.js" defer></script>
   </body>
 </html>

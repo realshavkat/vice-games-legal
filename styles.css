@@ -84,21 +84,13 @@ body {
 }
 
 .brand-mark {
-  width: 2rem;
-  height: 2rem;
+  width: 2.15rem;
+  height: 2.15rem;
   border-radius: 0.55rem;
-  background: linear-gradient(145deg, #ff5a97, var(--accent) 55%, #d91a60);
-  box-shadow: 0 8px 20px rgba(255, 51, 125, 0.35);
-  position: relative;
+  object-fit: cover;
+  display: block;
   flex-shrink: 0;
-}
-
-.brand-mark::after {
-  content: "";
-  position: absolute;
-  inset: 7px;
-  border-radius: 0.28rem;
-  border: 1.5px solid rgba(255, 255, 255, 0.55);
+  box-shadow: 0 8px 20px rgba(255, 51, 125, 0.35);
 }
 
 nav {

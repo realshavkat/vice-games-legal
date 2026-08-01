@@ -1,16 +1,15 @@
-# Vice Games — Legal
+﻿# Vice Games — Legal
 
 Site statique (GitHub Pages) pour les documents Discord du bot **Vice Games** :
 
-- [Conditions d'utilisation](./terms.html)
-- [Politique de confidentialité](./privacy.html)
+- [Conditions d'utilisation](https://realshavkat.github.io/vice-games-legal/terms.html)
+- [Politique de confidentialité](https://realshavkat.github.io/vice-games-legal/privacy.html)
 
-## URLs Pages (après activation)
+## Liens à coller dans Discord Developer Portal
 
-Remplace `USER` par ton pseudo GitHub :
+- **Terms of Service** : https://realshavkat.github.io/vice-games-legal/terms.html
+- **Privacy Policy** : https://realshavkat.github.io/vice-games-legal/privacy.html
 
-- Accueil : `https://USER.github.io/vice-games-legal/`
-- CGU : `https://USER.github.io/vice-games-legal/terms.html`
-- Confidentialité : `https://USER.github.io/vice-games-legal/privacy.html`
+Dépôt : https://github.com/realshavkat/vice-games-legal
 
-Colle ces deux derniers liens dans le [Discord Developer Portal](https://discord.com/developers/applications) → ton application → onglet informations / liens légaux.
+Contact indiqué dans les pages : `vicegames.support@gmail.com` (à remplacer si besoin).

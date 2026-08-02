@@ -3,21 +3,21 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Vice Music — Add to Discord</title>
+    <title>Vice Studio — Discord bots</title>
     <meta
       name="description"
-      content="Add Vice Music to your Discord server. Free multi-source music bot with queues, 24/7 radio, and more."
+      content="Add Vice Music or Vice Games to your Discord server. Bots by Vice Studio."
     />
     <link rel="canonical" href="https://legal.shvkt.xyz/" />
     <link rel="icon" href="assets/logo.png" type="image/png" />
     <link rel="apple-touch-icon" href="assets/logo.png" />
-    <meta property="og:title" content="Vice Music — Add to Discord" />
+    <meta property="og:title" content="Vice Studio — Discord bots" />
     <meta
       property="og:description"
-      content="Invite Vice Music: queues, skip, loop, 24/7 radio, and multi-source playback."
+      content="Choose Vice Music or Vice Games and add them to your Discord server."
     />
     <meta property="og:image" content="https://legal.shvkt.xyz/assets/logo.png" />
-    <meta name="theme-color" content="#7E33FF" />
+    <meta name="theme-color" content="#FF2D7A" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="stylesheet" href="styles.css" />
@@ -27,8 +27,8 @@
     <div class="shell">
       <header class="site-header">
         <a class="brand" href="./">
-          <img class="brand-mark" src="assets/logo.png" width="36" height="36" alt="" />
-          Vice Music
+          <img class="brand-mark" src="assets/logo-studio.png" width="36" height="36" alt="" />
+          Vice Studio
         </a>
         <div class="header-actions">
           <nav>
@@ -46,33 +46,77 @@
         <div class="landing-stage">
           <img
             class="landing-logo"
-            src="assets/logo.png"
+            src="assets/logo-studio.png"
             width="160"
             height="160"
-            alt="Vice Music"
+            alt="Vice Studio"
           />
-          <h1>Vice Music</h1>
+          <h1>Vice Studio</h1>
           <p class="lede" data-i18n="home.lede">
-            Play music in your Discord voice channels. Queues, skip votes, loops, and 24/7 radio —
-            free for your server.
+            Discord bots by Vice Studio. Pick Music or Games and add it to your server.
           </p>
-          <div class="cta">
-            <a
-              class="btn primary"
-              href="https://discord.com/oauth2/authorize?client_id=1389949022512353351&permissions=274914987072&scope=bot%20applications.commands"
-              data-i18n="home.cta.invite"
-              >Add to Discord</a
-            >
-            <a
-              class="btn ghost"
-              href="https://discord.com/oauth2/authorize?client_id=1389949022512353351&integration_type=1&scope=applications.commands"
-              data-i18n="home.cta.user"
-              >Add to my apps</a
-            >
-            <a class="btn" href="https://discord.gg/KSRhTD3qX7" data-i18n="home.cta.support"
-              >Support server</a
-            >
-          </div>
+        </div>
+
+        <section class="bot-picker" aria-label="Bots">
+          <article class="bot-card bot-card--music">
+            <img
+              class="bot-card__logo"
+              src="assets/logo-music.png"
+              width="72"
+              height="72"
+              alt=""
+            />
+            <div class="bot-card__body">
+              <h2>Vice Music</h2>
+              <p data-i18n="home.music.desc">
+                Play music in voice channels — queues, skip, loops, and 24/7 radio.
+              </p>
+              <div class="cta">
+                <a
+                  class="btn primary"
+                  href="https://discord.com/oauth2/authorize?client_id=1389949022512353351&permissions=274914987072&scope=bot%20applications.commands"
+                  data-i18n="home.cta.invite"
+                  >Add to Discord</a
+                >
+              </div>
+            </div>
+          </article>
+
+          <article class="bot-card bot-card--games">
+            <img
+              class="bot-card__logo"
+              src="assets/logo-games.png"
+              width="72"
+              height="72"
+              alt=""
+            />
+            <div class="bot-card__body">
+              <h2>Vice Games</h2>
+              <p data-i18n="home.games.desc">
+                Free game alerts, promos, and automation for your Discord community.
+              </p>
+              <div class="cta">
+                <a
+                  class="btn primary"
+                  href="https://discord.com/oauth2/authorize?client_id=1333511268585312306&permissions=515933334608&scope=bot%20applications.commands"
+                  data-i18n="home.cta.invite"
+                  >Add to Discord</a
+                >
+                <a
+                  class="btn ghost"
+                  href="https://discord.com/oauth2/authorize?client_id=1333511268585312306&integration_type=1&scope=applications.commands"
+                  data-i18n="home.cta.user"
+                  >Add to my apps</a
+                >
+              </div>
+            </div>
+          </article>
+        </section>
+
+        <div class="landing-support">
+          <a class="btn" href="https://discord.gg/KSRhTD3qX7" data-i18n="home.cta.support"
+            >Support server</a
+          >
         </div>
 
         <div class="legal-strip">
@@ -85,7 +129,7 @@
       </main>
 
       <footer class="site-footer">
-        <p data-i18n="footer.copy">© <span id="y"></span> Vice — Discord bots by the Vice team.</p>
+        <p data-i18n="footer.copy">© <span id="y"></span> Vice Studio — Discord bots by the Vice team.</p>
         <p class="muted">
           <span data-i18n="footer.contact">Contact:</span>
           <a href="mailto:yenediscord@gmail.com">yenediscord@gmail.com</a>

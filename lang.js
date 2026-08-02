@@ -10,10 +10,14 @@
       "footer.home": "Home",
       "footer.terms": "Terms of Service",
       "footer.privacy": "Privacy Policy",
-      "footer.copy": "© {year} Vice — Discord bots by the Vice team.",
+      "footer.copy": "© {year} Vice Studio — Discord bots by the Vice team.",
       "footer.contact": "Contact:",
       "home.lede":
-        "Play music in your Discord voice channels. Queues, skip votes, loops, and 24/7 radio — free for your server.",
+        "Discord bots by Vice Studio. Pick Music or Games and add it to your server.",
+      "home.music.desc":
+        "Play music in voice channels — queues, skip, loops, and 24/7 radio.",
+      "home.games.desc":
+        "Free game alerts, promos, and automation for your Discord community.",
       "home.cta.invite": "Add to Discord",
       "home.cta.user": "Add to my apps",
       "home.cta.support": "Support server",
@@ -21,9 +25,9 @@
       "home.cta.privacy": "Privacy Policy",
       "home.legal.note":
         "Terms & privacy cover all Vice Discord bots (Music, Games, and future apps).",
-      "meta.home.title": "Vice Music — Add to Discord",
+      "meta.home.title": "Vice Studio — Discord bots",
       "meta.home.desc":
-        "Add Vice Music to your Discord server. Free multi-source music bot with queues, 24/7 radio, and more.",
+        "Add Vice Music or Vice Games to your Discord server. Bots by Vice Studio.",
       "meta.terms.title": "Terms of Service — Vice Bots",
       "meta.terms.desc":
         "Terms of Service for all Vice Discord bots (Vice Music, Vice Games, and future apps).",
@@ -38,10 +42,14 @@
       "footer.home": "Accueil",
       "footer.terms": "Conditions d'utilisation",
       "footer.privacy": "Confidentialité",
-      "footer.copy": "© {year} Vice — Bots Discord par l'équipe Vice.",
+      "footer.copy": "© {year} Vice Studio — Bots Discord par l'équipe Vice.",
       "footer.contact": "Contact :",
       "home.lede":
-        "Écoutez de la musique dans vos salons vocaux Discord. Files, votes skip, boucles et radio 24/7 — gratuit pour votre serveur.",
+        "Les bots Discord de Vice Studio. Choisissez Music ou Games et ajoutez-le à votre serveur.",
+      "home.music.desc":
+        "Musique en vocal — files, skip, boucles et radio 24/7.",
+      "home.games.desc":
+        "Alertes jeux gratuits, promos et automatisation pour votre communauté Discord.",
       "home.cta.invite": "Ajouter à Discord",
       "home.cta.user": "Ajouter à mes apps",
       "home.cta.support": "Serveur support",
@@ -49,9 +57,9 @@
       "home.cta.privacy": "Politique de confidentialité",
       "home.legal.note":
         "Les CGU et la confidentialité couvrent tous les bots Vice (Music, Games, et apps futures).",
-      "meta.home.title": "Vice Music — Ajouter à Discord",
+      "meta.home.title": "Vice Studio — Bots Discord",
       "meta.home.desc":
-        "Ajoutez Vice Music à votre serveur Discord. Bot musique multi-sources, files, radio 24/7, et plus.",
+        "Ajoutez Vice Music ou Vice Games à votre serveur Discord. Bots par Vice Studio.",
       "meta.terms.title": "Conditions d'utilisation — Bots Vice",
       "meta.terms.desc":
         "Conditions d'utilisation de tous les bots Discord Vice (Vice Music, Vice Games, et apps futures).",

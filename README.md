@@ -1,10 +1,10 @@
-# Vice — Legal & invite
+# Vice Studio — Legal & invite
 
-Site GitHub Pages pour **Vice Music** (invitation) et les documents légaux de **tous les bots Vice** (Music, Games, apps futures).
+Site GitHub Pages pour **Vice Studio** : choix d’invitation (**Vice Music** / **Vice Games**) et documents légaux partagés par **tous les bots Vice**.
 
 ## Liens
 
-- **Accueil / Invite Vice Music** : https://legal.shvkt.xyz/
+- **Accueil / Invite** : https://legal.shvkt.xyz/
 - **Conditions d'utilisation** : https://legal.shvkt.xyz/terms/
 - **Politique de confidentialité** : https://legal.shvkt.xyz/privacy/
 

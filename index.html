@@ -1,15 +1,23 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Vice Games — Legal</title>
+    <title>Vice Music — Add to Discord</title>
     <meta
       name="description"
-      content="Terms of Service and Privacy Policy for the Vice Games Discord bot."
+      content="Add Vice Music to your Discord server. Free multi-source music bot with queues, 24/7 radio, and more."
     />
+    <link rel="canonical" href="https://legal.shvkt.xyz/" />
     <link rel="icon" href="assets/logo.png" type="image/png" />
     <link rel="apple-touch-icon" href="assets/logo.png" />
+    <meta property="og:title" content="Vice Music — Add to Discord" />
+    <meta
+      property="og:description"
+      content="Invite Vice Music: queues, skip, loop, 24/7 radio, and multi-source playback."
+    />
+    <meta property="og:image" content="https://legal.shvkt.xyz/assets/logo.png" />
+    <meta name="theme-color" content="#7E33FF" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="stylesheet" href="styles.css" />
@@ -19,8 +27,8 @@
     <div class="shell">
       <header class="site-header">
         <a class="brand" href="./">
-          <img class="brand-mark" src="assets/logo.png" width="34" height="34" alt="" />
-          Vice Games
+          <img class="brand-mark" src="assets/logo.png" width="36" height="36" alt="" />
+          Vice Music
         </a>
         <div class="header-actions">
           <nav>
@@ -34,37 +42,50 @@
         </div>
       </header>
 
-      <main class="hero">
-        <p class="eyebrow" data-i18n="home.eyebrow">Discord bot</p>
-        <h1>Vice Games</h1>
-        <p class="lede" data-i18n="home.lede">
-          Legal documents for using the bot and for the Discord developer portal.
-        </p>
-        <div class="cta">
-          <a class="btn primary" href="terms/" data-i18n="home.cta.terms">Terms of Service</a>
-          <a class="btn" href="privacy/" data-i18n="home.cta.privacy">Privacy Policy</a>
+      <main class="landing">
+        <div class="landing-stage">
+          <img
+            class="landing-logo"
+            src="assets/logo.png"
+            width="160"
+            height="160"
+            alt="Vice Music"
+          />
+          <h1>Vice Music</h1>
+          <p class="lede" data-i18n="home.lede">
+            Play music in your Discord voice channels. Queues, skip votes, loops, and 24/7 radio —
+            free for your server.
+          </p>
+          <div class="cta">
+            <a
+              class="btn primary"
+              href="https://discord.com/oauth2/authorize?client_id=1389949022512353351&permissions=274914987072&scope=bot%20applications.commands"
+              data-i18n="home.cta.invite"
+              >Add to Discord</a
+            >
+            <a
+              class="btn ghost"
+              href="https://discord.com/oauth2/authorize?client_id=1389949022512353351&integration_type=1&scope=applications.commands"
+              data-i18n="home.cta.user"
+              >Add to my apps</a
+            >
+            <a class="btn" href="https://discord.gg/KSRhTD3qX7" data-i18n="home.cta.support"
+              >Support server</a
+            >
+          </div>
         </div>
 
-        <div class="link-grid">
-          <a class="link-card" href="terms/">
-            <strong data-i18n="home.card.terms.title">Terms of Service</strong>
-            <span data-i18n="home.card.terms.desc"
-              >Bot usage rules, responsibilities, and limitations.</span
-            >
-            <span class="arrow" data-i18n="home.card.terms.arrow">Read →</span>
-          </a>
-          <a class="link-card" href="privacy/">
-            <strong data-i18n="home.card.privacy.title">Privacy Policy</strong>
-            <span data-i18n="home.card.privacy.desc"
-              >Data we process, retention, and your rights.</span
-            >
-            <span class="arrow" data-i18n="home.card.privacy.arrow">Read →</span>
-          </a>
+        <div class="legal-strip">
+          <span data-i18n="home.legal.note"
+            >Terms & privacy cover all Vice Discord bots (Music, Games, and future apps).</span
+          >
+          <a href="terms/" data-i18n="home.cta.terms">Terms of Service</a>
+          <a href="privacy/" data-i18n="home.cta.privacy">Privacy Policy</a>
         </div>
       </main>
 
       <footer class="site-footer">
-        <p data-i18n="footer.copy">© <span id="y"></span> Vice Games — Informational documents.</p>
+        <p data-i18n="footer.copy">© <span id="y"></span> Vice — Discord bots by the Vice team.</p>
         <p class="muted">
           <span data-i18n="footer.contact">Contact:</span>
           <a href="mailto:yenediscord@gmail.com">yenediscord@gmail.com</a>

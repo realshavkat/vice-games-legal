@@ -1,4 +1,4 @@
-# Vice Studio — Legal & invite
+# Vice Studio · Legal & invite
 
 Site GitHub Pages pour **Vice Studio** : choix d’invitation (**Vice Music** / **Vice Games**) et documents légaux partagés par **tous les bots Vice**.
 

@@ -9,6 +9,8 @@
   --music-hot: #a66bff;
   --games: #ff2d7a;
   --games-hot: #ff5c9a;
+  --destiny: #337bff;
+  --destiny-hot: #5b96ff;
   --blurple: #5865f2;
   --bg: #07060a;
   --ink: #fff7fb;
@@ -227,7 +229,7 @@ nav a[aria-current="page"] {
 
 .bot-picker {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 1rem;
 }
 
@@ -267,6 +269,15 @@ nav a[aria-current="page"] {
 .bot-card--games:hover {
   border-color: rgba(255, 45, 122, 0.55);
   box-shadow: 0 24px 60px rgba(255, 45, 122, 0.18);
+}
+
+.bot-card--destiny {
+  border-color: rgba(51, 123, 255, 0.28);
+}
+
+.bot-card--destiny:hover {
+  border-color: rgba(51, 123, 255, 0.55);
+  box-shadow: 0 24px 60px rgba(51, 123, 255, 0.18);
 }
 
 .bot-card__top {
@@ -387,6 +398,15 @@ nav a[aria-current="page"] {
 
 .bot-card--games .btn.primary:hover {
   box-shadow: 0 16px 38px rgba(255, 45, 122, 0.5);
+}
+
+.bot-card--destiny .btn.primary {
+  background: linear-gradient(135deg, var(--destiny-hot), var(--destiny));
+  box-shadow: 0 12px 30px rgba(51, 123, 255, 0.35);
+}
+
+.bot-card--destiny .btn.primary:hover {
+  box-shadow: 0 16px 38px rgba(51, 123, 255, 0.5);
 }
 
 .bot-card--music .btn.ghost:hover {
@@ -577,7 +597,7 @@ nav a[aria-current="page"] {
   }
 }
 
-@media (max-width: 780px) {
+@media (max-width: 900px) {
   .bot-picker {
     grid-template-columns: 1fr;
   }

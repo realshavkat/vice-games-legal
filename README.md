@@ -21,4 +21,31 @@ Site GitHub Pages pour **Vice Studio** : choix d’invitation (**Vice Music** / 
 |------|-----|--------|
 | **CNAME** | `legal` | `realshavkat.github.io` |
 
+Pas de proxy CDN (ex. Cloudflare « orange cloud ») : DNS uniquement, sinon GitHub ne peut pas émettre le certificat Let's Encrypt.
+
 Les anciennes URLs `…/terms.html` et `…/privacy.html` redirigent automatiquement.
+
+## HTTPS / certificat SSL
+
+Si le navigateur affiche `SSL_ERROR_BAD_CERT_DOMAIN` et que le certificat présenté est `*.github.io` (au lieu de `legal.shvkt.xyz`), le DNS est bon mais **GitHub Pages n’a pas provisionné** le certificat du domaine personnalisé (`https_enforced` reste à `false`).
+
+### Correctif automatique
+
+1. Merger cette branche sur `main` (le workflow `Fix Pages SSL certificate` se lance tout seul), **ou**
+2. Actions → **Fix Pages SSL certificate** → *Run workflow*.
+
+Le job retire puis restaure le fichier `CNAME` pour forcer une nouvelle émission Let's Encrypt, puis active **Enforce HTTPS** si le token le permet.
+
+### Correctif manuel (Settings)
+
+1. Repo → **Settings** → **Pages**
+2. Supprimer le domaine personnalisé, enregistrer
+3. Attendre ~1 minute
+4. Remettre `legal.shvkt.xyz`, enregistrer
+5. Attendre la coche verte du certificat, puis cocher **Enforce HTTPS**
+
+En local (compte avec droits admin sur le repo) :
+
+```bash
+bash scripts/fix-pages-ssl.sh
+```

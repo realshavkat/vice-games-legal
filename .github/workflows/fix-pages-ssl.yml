@@ -1,0 +1,39 @@
+# Force GitHub Pages to re-issue the custom-domain TLS certificate.
+# Symptom fixed: SSL_ERROR_BAD_CERT_DOMAIN (browser receives *.github.io instead of legal.shvkt.xyz).
+#
+# Runs automatically once this workflow file lands on main, and on demand via workflow_dispatch.
+name: Fix Pages SSL certificate
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/fix-pages-ssl.yml"
+
+concurrency:
+  group: fix-pages-ssl
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  pages: write
+
+jobs:
+  reprovision-certificate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          # Need a token that can push back to main for the CNAME bounce.
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Re-provision custom domain certificate
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          DOMAIN: legal.shvkt.xyz
+        run: |
+          set -euo pipefail
+          bash scripts/fix-pages-ssl.sh
